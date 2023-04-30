@@ -10,7 +10,9 @@
 	
 <!-- Header -->	
 	<div class='header'>
-	
+		<a href="index.html">
+			<button>Home</button>
+		</a>
 	</div>
 	
 <!-- Body -->
@@ -18,13 +20,17 @@
 		<h1>Contact Us</h1>
 
 		<form>
-			<label for="fname">First name:</label><br><br>
-			<input type ="text" id="fname" name="fname" value="John" readonly><br><br>
-			<label for="lname">Last name:</label><br><br>
+			<label for="fname">*First name:</label><br>
+			<input type ="text" id="fname" name="fname" value="John" required readonly><br><br>
+			<label for="lname">*Last name:</label><br>
 			<input type="text" id="lname" name="lname" value="Doe" readonly><br><br>
-
-			How can we help? (text box pending)
-			<br><input type="submit" value="Submit" disabled>
+			<label for="email">*Email:</label><br>
+			<input type="email" id="email" name="email" value="example@example.com" readonly><br><br>
+			<label for="phone">*Phone:</label><br>
+			<input type="tel" id="phone" name="phone" value="1-555-555-5555" minlength="10" maxlength="15" readonly><br><br>
+			<label for="box">*Comments:</label><br>
+			<textarea id="box" name="box" rows="5" cols="100" readonly></textarea><br><br>
+			<input type="submit" value="Submit" disabled>
 		</form>
 	
 	</div>

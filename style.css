@@ -49,7 +49,7 @@ h4 {
 h5 {
     font-size: 12px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serifa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     letter-spacing: 7px;
 }
@@ -407,6 +407,10 @@ div.footer {
 	border: 2px solid black;
 }
 
+.contact h1 {
+	border-bottom: 2px solid black;
+}
+
 .contact p {
 	margin: 0 auto;
 	max-height: 700px;
@@ -416,8 +420,8 @@ div.footer {
 	
 }
 
-.container_contact {
-	
+.contact form {
+	font-size: 16px;
 }
 
 /* Travel */
@@ -434,9 +438,20 @@ div.footer {
 	border: 2px solid black;
 }
 
+.travel h1 {
+	border-bottom: 2px solid black;
+}
 .travel p {
 	background: white;
 	
+}
+
+.travel ul {
+	
+}
+
+.travel li {
+	font-size: 16px;
 }
 
 /* Lodging */
@@ -451,6 +466,10 @@ div.footer {
 	padding-bottom: 7px;	
     background-color: #F3D3D3;
 	border: 2px solid black;
+}
+
+.lodging h1 {
+	border-bottom: 2px solid black;
 }
 
 .lodging p {
@@ -471,6 +490,10 @@ div.footer {
 	border: 2px solid black;
 }
 
+.family h1 {
+	border-bottom: 2px solid black;
+}
+
 .family p {
 	background: white;
 }
@@ -489,8 +512,30 @@ div.footer {
 	border: 2px solid black;
 }
 
+.night h1 {
+	border-bottom: 2px solid black;
+}
+
 .night p {
 	background: white;
+}
+
+/* Text Over Image */
+.night_container {
+	position: relative;
+}
+
+.night_text-block {
+	position: absolute;
+	margin: 0 auto;
+	top: 15px;
+	left: 93px;
+	height: 8%;
+	width: 76%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.25);
+	color: white;
+	border: 2px solid white;
 }
 
 /* History */
@@ -507,8 +552,37 @@ div.footer {
 	border: 2px solid black;
 }
 
+.history h1 {
+	border-bottom: 2px solid black;
+}
+
 .history p {
 	background: white;
+}
+
+.history h5 {
+	font-weight: lighter;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+/* Text Over Image */
+.history_container {
+	position: relative;
+}
+
+.history_text-block {
+	position: absolute;
+	margin: 0 auto;
+	top: 15px;
+	left: 93px;
+	height: 8%;
+	width: 76%;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.25);
+	color: white;
+	border: 2px solid white;
 }
 
 /* FAQ */
@@ -525,6 +599,22 @@ div.footer {
 	border: 2px solid black;
 }
 
+.faq h1 {
+	border-bottom: 2px solid black;
+}
+
 .faq p {
+	margin: 0 auto;
+	font-size: 20;
+	text-align: center;
 	background: white;
+
+}
+
+.faq ul {
+	
+}
+
+.faq li {
+	font-size: 16px;
 }
