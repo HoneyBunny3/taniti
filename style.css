@@ -220,6 +220,11 @@ button:hover {
 	
 }
 
+.banner h6 {
+	font-size: 9px;
+	text-align: left;
+}
+
 /* Text Over Image */
 .container {
 	position: relative;
@@ -292,6 +297,11 @@ button:hover {
     font-size: 16px;
     color: #FAF7EE;
 	background: transparent;
+}
+
+.body h6 {
+	font-size: 9px;
+	text-align: left;
 }
 
 .body button {
@@ -521,6 +531,11 @@ div.footer {
 	background: white;
 }
 
+.night h6 {
+	font-size: 9px;
+	text-align: left;
+}
+
 /* Text Over Image */
 .night_container {
 	position: relative;
@@ -566,6 +581,11 @@ div.footer {
 	text-align: left;
 	font-size: 12px;
 	letter-spacing: 2px;
+}
+
+.history h6 {
+	font-size: 9px;
+	text-align: left;
 }
 
 /* Text Over Image */
